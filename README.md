@@ -60,7 +60,7 @@ go to first terminal & create new file with TOUCH "hithere" command and see the 
 </li>
 <li>CMD					["redis-server"]		:argrment to cmd</li>
 <li>WORKDIR 				specify the directory to enter package.json</li>
-<li>COPY					Give The Path of package.json</li>
+<li>COPY					Take The Path of package.json</li>
 <h3 align="center">Command with Dockerfile</h3>
 <li>docker build -t <"NameOfImage"> .  : build.  </li>
 <li>docker run -p <"browserPort"> : <"containerPort"> <"containerName"> : RUN.</li>
